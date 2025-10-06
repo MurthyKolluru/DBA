@@ -1,0 +1,23 @@
+# --- Core environment for shap.ipynb ---
+python>=3.10,<3.13
+
+# Data & computation
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5
+matplotlib>=3.9
+
+# SHAP explainability
+shap>=0.45
+
+# Gradient boosting models (for comparison)
+xgboost>=2.1
+lightgbm>=4.3
+catboost>=1.2
+
+# Jupyter / IPython stack
+jupyter
+ipykernel
+
+# Optional utilities
+seaborn>=0.13
